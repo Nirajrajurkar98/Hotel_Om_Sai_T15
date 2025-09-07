@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Guest Information -->
+        <TextView
+            android:text="Guest Information"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:background="#CCCCCC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/etFolioNo" android:hint="Folio Number"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etLastName" android:hint="Last Name"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etFirstName" android:hint="First Name"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etAddress" android:hint="Address"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etCompany" android:hint="Company"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <!-- Identification Information -->
+        <TextView
+            android:text="Identification Information"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:background="#CCCCCC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"/>
+
+        <EditText android:id="@+id/etIdType" android:hint="ID Type"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etIdNumber" android:hint="ID Number"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <!-- Vehicle Information -->
+        <TextView
+            android:text="Vehicle Information"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:background="#CCCCCC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"/>
+
+        <EditText android:id="@+id/etVehicle" android:hint="Vehicle"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etVehicleModel" android:hint="Vehicle Model"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etPlateNumber" android:hint="Plate Number"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <!-- Rate Information -->
+        <TextView
+            android:text="Rate Information"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:background="#CCCCCC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"/>
+
+        <EditText android:id="@+id/etRoomNumber" android:hint="Room Number"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etRateType" android:hint="Rate Type"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etDays" android:hint="No. of Days"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etAdults" android:hint="No. of Adults"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etChildren" android:hint="No. of Children"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etBusinessSource" android:hint="Business Source"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etNotes" android:hint="Notes"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp">
+
+            <Button android:id="@+id/btnSave"
+                android:text="Save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"/>
+
+            <Button android:id="@+id/btnUpdate"
+                android:text="Update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"/>
+
+            <Button android:id="@+id/btnCheckout"
+                android:text="Check Out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"/>
+
+            <Button android:id="@+id/btnCancel"
+                android:text="Cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

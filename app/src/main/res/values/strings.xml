@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hotel OM SAI</string>
+    <string name="add_entry">Add Entry</string>
+    <string name="show_logs">Show Logs</string>
+</resources>

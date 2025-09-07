@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/btnSeeEntries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="See Entries"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnAddEntry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Entry"/>
+</LinearLayout>
